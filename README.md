@@ -4,7 +4,7 @@ There is no such thing as bad weather, only bad clothing.
 
 ## Background
 
-I always find it very difficult to decide what to wear everyday.  It is hard to figure out what to choose especially in the morning, when you're still warm in bed.
+I find it very difficult to decide what to wear everyday. It is hard to figure out what to choose especially in the morning, when you're still warm in bed.
 I always google outfit guides for the current temperature and compare using the weather app in the morning.
 The goal of this webpage is to help people avoid dressing  inappropriately for the current weather.
 
