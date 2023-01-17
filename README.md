@@ -27,7 +27,7 @@ The goal of this webpage is to help people avoid dressing  inappropriately for t
 
 ## Wireframes
 
-![alt text](wireframes.png)
+![alt text](wireframe.png)
 
 ## Technologies, Libraries, APIs
 
