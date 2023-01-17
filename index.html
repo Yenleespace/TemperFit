@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="./dist/main.css" />
-  <script src="./dist/main.js"></script>
+  <script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbHcAc_XtGY9mK292vxweVUq7vo1G8oX8&libraries=places"></script>
   <title>TemperFit</title>
 </head>
 
@@ -18,8 +19,8 @@
 
       <div class="input-group">
         <input id="autocomplete_search" name="autocomplete_search" type="text" class="form-control" placeholder="Search City or Zip Code">
-        <!-- <input type="hidden" name="latitude">
-        <input type="hidden" name="longitude"> -->
+        <input type="hidden" name="latitude">
+        <input type="hidden" name="longitude">
       </div>
 
     </div>
@@ -35,18 +36,22 @@
       <button id="date7" onclick="selDate(6)"></button>
     </div>
     
-    <div class="new-york-weather">
-      <h2 id="cityName">New York</h2>
+    <h2 id="cityName">New York</h2>
+    <div class="weatherContainer">
       
-      <div id="cityWeather">
-        <p id="time">10°F</p>
+      <div id="time">
+        <p id="temp">10°F</p>
         <p id="weather">sunny</p>
-        <p id="weatherimg">img</p>
+        <p id="weatherimage">img</p>
       </div>
-      
+      <div class="d3Container">
+        <svg width="80%" height="400"></svg>
+      </div>
+
     </div>
     
   </div>
+  <script src="./dist/main.js"></script>
 
 </body>
 
