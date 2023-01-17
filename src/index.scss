@@ -1,32 +1,11 @@
-@import "./styles/example.scss";
+// @import "./styles/example.scss";
 
-#root {
-    color: $color
+// #root {
+//     color: $color
+// }
+
+body {
+  background: #c9e5e7;
+  margin: 20px;
 }
 
-
-form.search-box {
-    border: 1px solid red;
-    width: 500px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-  
-  form.search-box input {
-    border: none;
-  }
-  
-  form.search-box input[type=text] {
-    background-color: rgb(44, 44, 207);
-    width: 340px;
-    padding: 10px;
-    border-radius: 25px 0 0 25px;
-  }
-  
-  form.search-box input[type=submit] {
-    background-color: yellow;
-    padding: 10px;
-    border-radius: 0 25px 25px 0;
-    margin-left: -5px;
-  }
