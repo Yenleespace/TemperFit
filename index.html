@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./dist/main.css" />
-  <script type="text/javascript"
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbHcAc_XtGY9mK292vxweVUq7vo1G8oX8&libraries=places"></script>
-  <title>TemperFit</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./dist/main.css" />
+        <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbHcAc_XtGY9mK292vxweVUq7vo1G8oX8&libraries=places"></script>
+        <title>TemperFit</title>
+    </head>
 
-<body>
-  <h1>TemperFit</h1>
-  <div class="container">
+    <body>    
+        <!-- Header -->
+        <div class="title">
+            <h1>TemperFit</h1>
+            <p>Description.</p>                    
+        </div>
+        
+        <!-- Search Bar -->
+        <section class="form-container">                    
+                <div class="input-group">        
+                    <input id="autocomplete_search" name="autocomplete_search" type="text" class="form-size"
+                        placeholder="Search by cityName, zipcode or address" />        
+                    <input type="hidden" name="lat">        
+                    <input type="hidden" name="long">      
+                </div>        
+        </section>
 
-    <div class="custom-search-input">
+        <!-- Current City -->
+        <h2 class="cityName">New York</h2>
 
-      <div class="input-group">
-        <input id="autocomplete_search" name="autocomplete_search" type="text" class="form-control" placeholder="Search City or Zip Code">
-        <input type="hidden" name="latitude">
-        <input type="hidden" name="longitude">
-      </div>
+        <section class="weather-container">
+            <div class="grid_split">
+                <div class="left">
+                    <!-- Current Weather -->
+                    <h3>Currnet Weather</h3>
+                    <div class="currentWeather_html">                        
+                        <img class="curcode_html" src="" />
+                        <p class="curtemp_html"></p>
+                        <p class="curdesc_html"></p>
+                    </div>
+                    
+                    <!-- Hourly Temperature -->
+                    <h3>Hourly Temperature</h3>
+                    <div class="hourlyTemp_html">
+                        <div>
+                            <button id="date1" onclick="selDate(0)"></button>
+                            <button id="date2" onclick="selDate(1)"></button>
+                            <button id="date3" onclick="selDate(2)"></button>
+                            <button id="date4" onclick="selDate(3)"></button>
+                            <button id="date5" onclick="selDate(4)"></button>
+                            <button id="date6" onclick="selDate(5)"></button>
+                            <button id="date7" onclick="selDate(6)"></button>
+                        </div>
+                        <div class="d3Container">
+                            <svg width="80%" height="400"></svg>
+                        </div>
+                    </div>
+                    
+                    <!-- 7day forecast -->
+                    <div class="sevenweather_html">
+                    </div>
+                </div>
 
-    </div>
+                <div class="right">
+                    <!-- outfit section -->
+                    <div class="outfit_html">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./dist/main.js"></script>    
+    </body>
 
-    
-    <div class="dates">
-      <button id="date1" onclick="selDate(0)"></button>
-      <button id="date2" onclick="selDate(1)"></button>
-      <button id="date3" onclick="selDate(2)"></button>
-      <button id="date4" onclick="selDate(3)"></button>
-      <button id="date5" onclick="selDate(4)"></button>
-      <button id="date6" onclick="selDate(5)"></button>
-      <button id="date7" onclick="selDate(6)"></button>
-    </div>
-    
-    <h2 id="cityName">New York</h2>
-    <div class="weatherContainer">
-      
-      <div id="time">
-        <p id="temp">10°F</p>
-        <p id="weather">sunny</p>
-        <p id="weatherimage">img</p>
-      </div>
-      <div class="d3Container">
-        <svg width="80%" height="400"></svg>
-      </div>
-
-    </div>
-    
-  </div>
-  <script src="./dist/main.js"></script>
-
-</body>
-
-</html>
+</html> 

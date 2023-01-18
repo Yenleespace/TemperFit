@@ -23,5 +23,8 @@
     "81": "Rain showers moderate",
     "82": "Rain showers violent",
     "85": "Snow showers slight",
-    "86": "Snow showers heavy"
+    "86": "Snow showers heavy",
+    "95": "Thunderstorm",
+    "96": "Thunderstorm with slight hail",
+    "99": "Thunderstorm with heavy hail"
 }
