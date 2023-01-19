@@ -1,9 +1,17 @@
 button {
     background-color: white;
-    color: black;
+    color: #0d4d89;
     border: 2px solid #0d4d89;
     padding: 10px;
+    margin: 15px;
     transition-duration: 0.4s;
+    border: 3px solid #0d4d89 ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 110px;
+    letter-spacing: 2px; 
+    text-align: center;	  
 }
 
 button:hover {

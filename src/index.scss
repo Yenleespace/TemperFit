@@ -3,8 +3,10 @@
 @import url(./styles/currentweather.scss);
 @import url(./styles/title.scss);
 @import url(./styles/weather.scss);
+@import url(./styles/7days.scss);
 
 body {
   margin-top: 20px;
+  color: #0d4d89;
+  font-family: Tahoma;
 }
-

@@ -13,7 +13,6 @@ var location
 var currentweather
 var hourlytemp
 var sevenweather
-var weatherData  // ???
 var outfit
 
 const weatherUpdate = (location) => {

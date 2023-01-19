@@ -16,7 +16,9 @@ class SevenWeather {
             this.lowhigh.push([Math.min(...temps), Math.max(...temps)])
         }
     }
+
     showseventemp = () => {
+
         // console.log(this.sevenweather_div)
         var child = this.sevenweather_div.lastElementChild;
         while (child) {
@@ -35,10 +37,9 @@ class SevenWeather {
                 <p class"high">High: ${this.lowhigh[i][1]}°F</p>
             `
             this.sevenweather_div.appendChild(container)
-            debugger
+            // debugger
         }
     }
-
 }
 
 export default SevenWeather;

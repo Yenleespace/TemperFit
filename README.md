@@ -36,8 +36,7 @@ This project was be implemented with the following technologies
 - Global weather forecast API
     - <https://open-meteo.com/en/docs>
 - Geolocation API for location
-    - <https://w3c.github.io/geolocation-api/>
-- add more later
+    - <https://developers.google.com/maps/documentation/places/web-service/autocomplete>
 
 
 

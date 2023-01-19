@@ -7,6 +7,7 @@ class OutFit {
         this.showoutfit();
     }
     calavgTemp = () => {
+
         for (let i = 0; i < 7; i++) {
             let sum = 0;
             let startTemp = this.hourlytemp.length / 7 * i;
@@ -19,6 +20,7 @@ class OutFit {
             // debugger
         }
     }
+    
     showoutfit = (i = 0) => {
         let cat;
         let avgtemp = this.avgtemp[i]
