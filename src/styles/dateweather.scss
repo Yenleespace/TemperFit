@@ -1,0 +1,20 @@
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #0d4d89;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #0d4d89;
+    color: white;
+}
+
+.outfit_html {
+    width: 100%;
+}
+
+.outfit_div {
+    position: relative;
+}

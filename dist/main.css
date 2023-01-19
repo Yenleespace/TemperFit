@@ -1,7 +1,85 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/dateweather.scss ***!
+  \***********************************************************************************************************/
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #0d4d89;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #0d4d89;
+    color: white;
+}
+
+.outfit_html {
+    width: 100%;
+}
+
+.outfit_div {
+    position: relative;
+}
+/*!******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/search.scss ***!
+  \******************************************************************************************************/
+.input-group {
+    text-align: center;
+    padding: 2%;
+}
+
+.form-size {
+    width: 50%;
+    height: 30px;
+    font-size: 1em;
+}
+
+.cityName {
+    text-align: center;
+}
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/currentweather.scss ***!
+  \**************************************************************************************************************/
+.currentWeather_html {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 60% 20px 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.curcode_html {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*!*****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/title.scss ***!
+  \*****************************************************************************************************/
+.title {
+    text-align: center;
+    padding: 10px;
+}
+/*!*******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/weather.scss ***!
+  \*******************************************************************************************************/
+.weather-container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.grid_split {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    margin-bottom: 70px;
+}
 /*!*************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*************************************************************************************************************************************/
 body {
-  background: #c9e5e7;
-  margin: 20px;
+  margin-top: 20px;
 }

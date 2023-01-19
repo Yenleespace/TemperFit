@@ -1,0 +1,11 @@
+.weather-container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.grid_split {
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    margin-bottom: 70px;
+}

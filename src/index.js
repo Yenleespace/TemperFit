@@ -1,4 +1,3 @@
-// import * as d3 from 'd3';
 import LocWeather from './scripts/locweather';
 import CurrentWeather from './scripts/currentweather';
 import HourlyWeather from './scripts/hourlyweather';

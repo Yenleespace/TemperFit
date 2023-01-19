@@ -1,11 +1,10 @@
-// @import "./styles/example.scss";
-
-// #root {
-//     color: $color
-// }
+@import url(./styles/dateweather.scss);
+@import url(./styles/search.scss);
+@import url(./styles/currentweather.scss);
+@import url(./styles/title.scss);
+@import url(./styles/weather.scss);
 
 body {
-  background: #c9e5e7;
-  margin: 20px;
+  margin-top: 20px;
 }
 
