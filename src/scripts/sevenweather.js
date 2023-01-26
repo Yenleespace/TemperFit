@@ -11,14 +11,13 @@ class SevenWeather {
     calTemp = () => {
         for (let i = 0; i < 7; i++) {
             let startTemp = this.hourlytemp['temperature_2m'].length / 7 * i
-            let endTemp = startTemp * 24
+            let endTemp = startTemp + 24
             let temps = this.hourlytemp['temperature_2m'].slice(startTemp, endTemp)
             this.lowhigh.push([Math.min(...temps), Math.max(...temps)])
         }
     }
 
     showseventemp = () => {
-
         // console.log(this.sevenweather_div)
         var child = this.sevenweather_div.lastElementChild;
         while (child) {
@@ -27,6 +26,7 @@ class SevenWeather {
         }
 
         for (let i = 0; i < 7; i++) {
+            debugger
             let container = document.createElement('div')
             let date = new Date(this.hourlytemp['time'][24 * i]).toLocaleDateString()
             container.id = 'sevendaysweather'
@@ -37,6 +37,7 @@ class SevenWeather {
                 <p class"high">High: ${this.lowhigh[i][1]}°F</p>
             `
             this.sevenweather_div.appendChild(container)
+            // debugger
         }
     }
 }
