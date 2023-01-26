@@ -37,7 +37,6 @@ class SevenWeather {
                 <p class"high">High: ${this.lowhigh[i][1]}°F</p>
             `
             this.sevenweather_div.appendChild(container)
-            // debugger
         }
     }
 }
