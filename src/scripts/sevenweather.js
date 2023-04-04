@@ -26,7 +26,7 @@ class SevenWeather {
         }
 
         for (let i = 0; i < 7; i++) {
-            debugger
+            // debugger
             let container = document.createElement('div')
             let date = new Date(this.hourlytemp['time'][24 * i]).toLocaleDateString()
             container.id = 'sevendaysweather'

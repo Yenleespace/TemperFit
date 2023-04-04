@@ -5,24 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <script src="https://kit.fontawesome.com/6c0c68d6ed.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6c0c68d6ed.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbHcAc_XtGY9mK292vxweVUq7vo1G8oX8&libraries=places"
     ></script>
-    <link rel="shortcut icon" type="image/jpg" href="./src/images/favicon.png"/>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./src/images/favicon.png"
+    />
     <title>TemperFit</title>
   </head>
 
   <body>
     <!-- Header -->
     <div>
-        <h1 class="title">TemperFit</h1>
-        <div class="nav-bar">
-            <a href="https://github.com/Yenleespace" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
-            <a href="https://www.linkedin.com/in/yenleespace/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-            <a href="https://github.com/yenleespace/TemperFit#readme" target="_blank"><i class="fa-brands fa-readme fa-2xl"></i></a> 
+      <!-- Trigger/Open The Modal -->
+      <div class="title-container">
+        <div class="title">
+          <h1>TemperFit</h1>
         </div>
+        <div class="modal-btn">
+          <button id="myBtn">User Instruction</button>
+        </div>
+      </div>
+
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+          </div>
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="nav-bar">
+
+        <a href="https://github.com/Yenleespace" target="_blank"
+          ><i class="fa-brands fa-github fa-2xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/yenleespace/" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a
+          href="https://github.com/yenleespace/TemperFit#readme"
+          target="_blank"
+          ><i class="fa-brands fa-readme fa-2xl"></i
+        ></a>
+      </div>
     </div>
 
     <!-- Search Bar -->
