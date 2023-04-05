@@ -83,11 +83,6 @@ button:hover {
 .curdesc_html {
     font-weight: bold;
 }
-/*!*****************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/title.scss ***!
-  \*****************************************************************************************************/
-
-
 /*!*******************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/weather.scss ***!
   \*******************************************************************************************************/
@@ -201,7 +196,7 @@ button:hover {
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #0D4D89;
     color: white;
   }
   
@@ -209,7 +204,7 @@ button:hover {
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #0D4D89;
     color: white;
   }
 
