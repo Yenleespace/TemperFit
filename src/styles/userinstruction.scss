@@ -1,17 +1,18 @@
 .title-container {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: flex-end;
+    position: relative;
 }
 
 .modal-btn {
-    background-color: pink;
     padding: 10px 0;        
 }
 
 .title {
     text-align: center;
-    border: 3px solid green;    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .modal {
@@ -84,6 +85,12 @@
   }
 
   .nav-bar {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
-
+  
+  .fa-brands {
+    color: #0D4D89;
+  }
