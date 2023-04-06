@@ -6,7 +6,7 @@ class HourlyWeather {
         this.hourlytemp_div = hourlytemp_div
         this.dates = weatherdata['hourly']['time']
         this.temps = []
-        this.displayweather()
+        this.displayweather()        
     }
 
     displayweather = (date = 0) => {
@@ -19,9 +19,14 @@ class HourlyWeather {
         for (let i = 0; i <= 6; i++) {
             let date = new Date(this.dates[24 * i]) // JS built-in Class Date
             let button = this.hourlytemp_div.querySelector(`#date${i + 1}`);
-            button.innerHTML = date.toLocaleDateString();
+            button.innerHTML = date.toLocaleDateString();            
             // debugger
         }
+    }
+    selectedDate = (offset = 0) => {        
+        const selectedDate = document.querySelector('.selectedDate')
+        let seldate = this.hourlytemp_div.querySelector(`#date${offset + 1}`);
+        selectedDate.innerHTML=seldate.innerHTML;
     }
 
     selTemp = (date_offset = 0) => {

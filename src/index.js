@@ -9,6 +9,8 @@ const curweather_div = document.querySelector('.currentWeather_html')// select c
 const hourlytemp_div = document.querySelector('.hourlyTemp_html')// select hourly temperature in html class
 const sevenweather_div = document.querySelector('.sevenweather_html')
 const outfit_div = document.querySelector('.outfit_div')
+const selectedDate = document.querySelectorAll('.selectedDate')
+
 var location
 var currentweather
 var hourlytemp
@@ -45,6 +47,7 @@ const weatherUpdate = (location) => {
         hourlytemp = new HourlyWeather(hourlytemp_div, data)
         sevenweather = new SevenWeather(sevenweather_div, data)
         outfit = new OutFit(outfit_div, data)
+        hourlytemp.selectedDate();
     });
 };
 
@@ -71,6 +74,7 @@ function locationSel() {
 window.selDate = (date) => {
     hourlytemp.displayweather(date)
     outfit.showoutfit(date)
+    hourlytemp.selectedDate(date);
 }
 
 location = new LocWeather()
