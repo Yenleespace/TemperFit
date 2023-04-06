@@ -26,7 +26,7 @@ class HourlyWeather {
     selectedDate = (offset = 0) => {        
         const selectedDate = document.querySelector('.selectedDate')
         let seldate = this.hourlytemp_div.querySelector(`#date${offset + 1}`);
-        selectedDate.innerHTML=seldate.innerHTML;
+        selectedDate.innerHTML = seldate.innerHTML;
     }
 
     selTemp = (date_offset = 0) => {

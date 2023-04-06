@@ -66,11 +66,11 @@ button:hover {
 }
 
 .hourly-temperature {
-    padding: 60px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .today-temperfit {
-    padding: 60px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .buttons {
@@ -96,12 +96,16 @@ button:hover {
     display: grid;
     grid-template-columns: 1.5fr 0.8fr;
     margin-bottom: 70px;
+    
 }
 .info-day-weather{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    gap: 10px;  
 }
+
+
 /*!*****************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/styles/7days.scss ***!
   \*****************************************************************************************************/
